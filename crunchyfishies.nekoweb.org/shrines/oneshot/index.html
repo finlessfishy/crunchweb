@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>
+			OneShot
+        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <style>
+	    	body {
+	            background-image: url("bg.png"); 
+	            background-repeat: no-repeat; 
+	            background-position: center; 
+	            background-size: cover; 
+	            background-attachment: fixed; 
+	    		background-color: white;
+
+				font-size: 16px;
+
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-height: 100vh;
+				margin: 0;
+			}
+
+	    	.font {
+	    		text-align: center;
+	    		color: #ffff33;
+	    		font-family: "Times New Roman", Arial;
+	    	}
+	    	
+	    	.emoji {
+	    		text-align: center;
+	    		color: pink;
+	    		font-family: Arial;
+	    		line-height: 0.6;
+	    	}
+
+	    	.summary {
+	    		text-align: center;
+	    		color: pink;
+	    		font-family: Arial;
+	    		margin: 10px;
+	    	}
+	    	
+	    	.centered {
+	    		text-align: center;
+	    	}
+
+	    	.layout {
+	    		display: flex;
+	    		align-items: center;
+	    		gap: 40px;
+	    	}
+
+	    	.content {
+	    		width: 500px;
+	    	}
+
+	    	.pic {
+	    		width: 300px;
+	    		height: auto;
+	    		flex-shrink: 0;
+	    		transition: transform 0.2s ease;
+    			cursor: pointer;
+    			animation: bounce 4.5s ease-in-out infinite;
+	    	}
+			
+			@keyframes bounce {
+			    0%, 100% {
+			        transform: scale(1.0);
+			    }
+			    50% {
+			        transform: scale(1.05);
+			    }
+			}
+	    </style>
+	    
+	    <script src="https://u.widget.st/ar.js"></script>
+
+    </head>
+
+    <body>
+
+    	<div class="layout">
+
+    		<img class="pic" src="./afftd_album1.jpeg" alt="Icon">
+
+		</div>
+
+    </body>
+
+</html>
